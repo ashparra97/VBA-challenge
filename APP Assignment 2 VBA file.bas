@@ -93,7 +93,7 @@ For Each ws In ActiveWorkbook.Worksheets
         End If
     Next I
 
-     'cariables for conditional formatting
+     'variables for conditional formatting
      Dim lastrow2 As Double
      lastrow2 = Cells(Rows.Count, 10).End(xlUp).Row
      
